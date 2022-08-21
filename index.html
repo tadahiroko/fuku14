@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <title>My Portfolio</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header navbar navbar-light">
+      <div class="header__inner inner">
+        <h1 class="header__logo"><img src="images/logo.png" /></h1>
+        <!-- /header__logo -->
+        <nav class="header__nav">
+          <a class="header__link" href="#profile">自己紹介</a>
+          <a class="header__link" href="#service">できること</a>
+          <a class="header__link" href="#work">制作例</a>
+          <a class="header__link" href="#contact">お問い合わせ</a>
+        </nav>
+        <button
+          class="header__hamburger navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div
+        class="navbar-collapse collapse header__drawer header-drawer"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav header-drawer__nav">
+          <li class="nav-item header-drawer__link">
+            <a class="" href="#profile">自己紹介</a>
+          </li>
+          <li class="nav-item header-drawer__link">
+            <a class="" href="#service">できること</a>
+          </li>
+          <li class="nav-item header-drawer__link">
+            <a class="" href="#work">制作例</a>
+          </li>
+          <li class="nav-item header-drawer__link">
+            <a class="" href="#contact">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="main-visual">
+      <!-- <h1 id="logo">
+        <a href="index.html"
+          ><img src="images/logo.png" alt="Sample Gallery"
+        /></a>
+      </h1> -->
+      <!--スライドショー-->
+      <aside id="mainimg">
+        <img src="images/1.jpg" alt="" class="slide0" />
+        <img src="images/1.jpg" alt="" class="slide1" />
+        <img src="images/2.jpg" alt="" class="slide2" />
+        <img src="images/3.jpg" alt="" class="slide3" />
+        <!-- <img src="images/123_kazari.png" alt="" class="kazari" /> -->
+      </aside>
+      <div class="box"></div>
+    </div>
+    <!-- /main-visual -->
+
+    <div id="profile" class="profile section">
+      <div class="profile__inner inner">
+        <h2 class="section__title">わたしについて</h2>
+        <div class="section__lead">About Me</div>
+        <div class="section__body">
+          <div class="profile-card profile__card">
+            <div class="profile-card__image">
+              <img
+                src="images/23985752_l.jpg"
+                alt=""
+                width="300"
+                height="240"
+              />
+              <!-- <div class="profile-card__sns sns-links">
+                <div class="sns-links__item">
+                  <a href="" target="_blank"
+                    ><img src="img/twitter.svg" alt="" width="30" height="30"
+                  /></a>
+                </div>
+                <div class="sns-links__item">
+                  <a href="" target="_blank"
+                    ><img src="img/facebook.svg" alt="" width="30" height="30"
+                  /></a>
+                </div> -->
+              <!-- </div> -->
+            </div>
+            <div class="profile-card__body">
+              <div class="profile-card__title">自己紹介</div>
+              <div class="profile-card__name">多田寛子</div>
+              <div class="profile-card__content">
+                <p>山口県宇部市でWEB制作コーディングを行っております。</p>
+                <p>
+                  単純くり返し作業でも、コツコツこなします。
+                  長い間働いてきました。仕事に対する責任感は身についています。
+                  <br />生活時間に余裕があるので、平日の稼働時間内は、連絡やご依頼に対する
+                  迅速な対応が可能です
+                </p>
+              </div>
+              <div class="profile-card__sub-head">略歴</div>
+              <div class="profile-card__history">
+                <ul>
+                  <li>1981年〜 診療放射線技師</li>
+                  <li>2020年〜 Win スクール　受講</li>
+                  <li>2021年〜 テックアカデミー　受講</li>
+                  <li>2022年〜 WEB製作</li>
+                </ul>
+              </div>
+              <!-- <div class="profile-card__sub-head">制作へのこだわり</div>
+              <div class="profile-card__concept">
+                ホームページで実現したい目的をしっかりとお伺いさせていただき、お客様の理想を叶えるホームページ制作を一緒に目指してまります。
+              </div>
+            </div> -->
+            </div>
+            <!-- /profile-card -->
+          </div>
+          <!-- /section__body -->
+        </div>
+        <!-- /profile__inner inner -->
+      </div>
+      <!-- /profile -->
+    </div>
+    <div id="service" class="service section section--gray">
+      <div class="service__inner inner">
+        <h2 class="section__title">できること</h2>
+        <div class="section__lead">Service</div>
+        <div class="section__body">
+          <div class="service__cards">
+            <div class="service-card service__card">
+              <div class="service-card__image">
+                <img
+                  src="images/iconmonstr-code-2-240.png"
+                  alt=""
+                  width="150"
+                  height="150"
+                />
+              </div>
+              <div class="service-card__title">制作使用言語</div>
+              <div class="service-card__content">
+                HTML5 + CSS3 + javascriptをベースにWeb、スマートフォン両方に対応
+                デザインカンプからの正確な再現コーディングいたします。
+              </div>
+            </div>
+            <!-- /service-card -->
+            <div class="service-card service__card">
+              <div class="service-card__image2">
+                <img
+                  src="images/iconmonstr-computer-11-240.png"
+                  alt=""
+                  width="150"
+                  height="150"
+                />
+              </div>
+              <div class="service-card__title">ホームページ修正</div>
+              <div class="service-card__content">
+                文言の変更や表示崩れなど、ホームページでのちょっとしたお困りごとに対応いたします。
+              </div>
+            </div>
+            <!-- /service-card -->
+            <div class="service-card service__card">
+              <div class="service-card__image">
+                <img
+                  src="images/iconmonstr-time-3-240.png"
+                  alt=""
+                  width="150"
+                  height="150"
+                />
+              </div>
+              <div class="service-card__title">稼働時間</div>
+              <div class="service-card__content">
+                平日10時~17時に稼働しております。
+                <br />(土曜、日曜、祭日はお休みをいただいております。だだし、緊急の場合はこの限
+                りではありません）
+              </div>
+            </div>
+            <!-- /service-card -->
+          </div>
+          <!-- /service__cards -->
+        </div>
+        <!-- /section__body -->
+      </div>
+      <!-- /inner -->
+    </div>
+    <!-- /service -->
+
+    <div id="work" class="work section">
+      <div class="work__inner inner">
+        <h2 class="section__title">制作例</h2>
+        <div class="section__lead">Work</div>
+        <div class="section__body">
+          <div class="work__cards">
+            <div class="work__card work-card">
+              <div class="work-card__image">
+                <img
+                  src="images/screencapture-127-0-0-1-5500-index-html-2022-08-19-16_45_22.png"
+                  alt=""
+                  width="320"
+                  height="200"
+                />
+              </div>
+              <!-- /work-card__image -->
+              <div class="work-card__body">
+                <div class="work-card__title">ペットサロンRink</div>
+                <div class="work-card__comment">
+                  実在する店舗の許可をもらって詳細使用し、テンプレートを使用して作成したものです
+                </div>
+                <div class="work-card__linK">
+                  <a href="https://tadahiroko.github.io/fuku13/" target="_blank"
+                    >サイトを見る</a
+                  >
+                </div>
+                <!-- /work-card__linK -->
+              </div>
+              <!-- /work-card__body -->
+            </div>
+            <!-- /work__card work-card -->
+            <div class="work__card work-card">
+              <div class="work-card__image">
+                <img
+                  src="images/screencapture-127-0-0-1-5502-2022-08-21-17_56_00.png"
+                  alt=""
+                  width="320"
+                  height="200"
+                />
+              </div>
+              <!-- /work-card__image -->
+              <div class="work-card__body">
+                <div class="work-card__title">テンプレートLP</div>
+                <div class="work-card__comment">
+                  オーダーメイドで作成したホームページです。
+                </div>
+                <!-- <div class="work-card__linK">
+                  <a href="" target="_blank">サイトを見る</a>
+                </div> -->
+                <!-- /work-card__linK -->
+              </div>
+              <!-- /work-card__body -->
+            </div>
+            <!-- /work__card work-card -->
+          </div>
+          <!-- /work__cards -->
+        </div>
+        <!-- /section__body -->
+      </div>
+      <!-- /work__inner inner -->
+    </div>
+    <!-- /section -->
+
+    <div id="contact" class="contact section section--gray">
+      <div class="contact__inner inner">
+        <h2 class="section__title">お問い合わせ</h2>
+        <div class="section__lead">Contact</div>
+        <div class="section__body">
+          <div class="contact__message">
+            お問い合わせ以下のフォームよりご連絡お願い致します。
+          </div>
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLScIcmUuyaVeL4P2RNm0xKu9XZjnHLKxxlod-lMNdWT_E6e0ow/viewform?embedded=true"
+            width="100%"
+            height="800"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            >読み込んでいます…</iframe
+          >
+          <!-- /contact__items -->
+        </div>
+        <!-- /section__body -->
+      </div>
+      <!-- /contact__inner inner -->
+    </div>
+    <!-- /section -->
+
+    <footer class="footer">
+      <div class="footer__inner inner">
+        <div class="footer__copyright">
+          Copyright &copy; 2022 tada hiroko All rights reserved.
+        </div>
+        <!-- /footer__copyright -->
+      </div>
+      <!-- /footer__inner inner -->
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
